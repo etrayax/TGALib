@@ -14,7 +14,7 @@ chat_id = 5041194621
 for i in range(5):
     asyncio.run(app.send_message(token, chat_id, "hello", response=False))
 
-asyncio.run(app.send_message(token, chat_id, f"Hello {emoji.ACCORDION}"))
-asyncio.run(app.send_message(token, chat_id, f"Hello {emoji.ARTIST_PALETTE}"))
+asyncio.run(app.send_message(token, chat_id, f"Hello {emoji.ACCORDION}")) # Hello 🪗
+asyncio.run(app.send_message(token, chat_id, f"Hello {emoji.ARTIST_PALETTE}")) # Hello 🎨
 )
 

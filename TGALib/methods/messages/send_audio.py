@@ -51,7 +51,7 @@ class sendAudio:
         token : str,
         chat_id : (str, int) = None,
         audio = None,
-        message_thread_id : intstr = None,
+        message_thread_id : int = None,
         caption : str = None,
         parse_mode : str = None,
         caption_entities = None,
